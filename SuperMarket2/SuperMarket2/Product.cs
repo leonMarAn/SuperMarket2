@@ -15,11 +15,6 @@ namespace Supermarket
 
         public abstract decimal ValueToPay();
 
-        internal void Add(Product product)
-        {
-            throw new NotImplementedException();
-        }
-
         public override string ToString()
         {
             return $"{base.ToString()}" +
